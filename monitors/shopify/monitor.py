@@ -225,7 +225,7 @@ def monitor():
         
         print(f"{datetime.now().strftime('%H:%M:%S')} Found {len(INSTOCK)} products in stock")
         # User set delay
-        time.sleep(float(DELAY))
+        time.sleep(DELAY)
 
 
 if __name__ == '__main__':
