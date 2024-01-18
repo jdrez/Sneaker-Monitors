@@ -46,3 +46,103 @@
 2024-01-18 10:56:44,503 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
 2024-01-18 10:56:44,566 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
 2024-01-18 10:56:44,568 - root - Successfully scraped site
+2024-01-18 11:10:21,539 - root - 
+-----------------------------------
+--- SHOPIFY MONITOR HAS STARTED ---
+-----------------------------------
+
+2024-01-18 11:10:21,540 - root - Successfully started monitor
+2024-01-18 11:10:21,558 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:21,687 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:21,762 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:21,764 - root - Successfully scraped site
+2024-01-18 11:10:21,767 - root - 11:10:21 Found 20 products in stock
+2024-01-18 11:10:26,774 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:26,874 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:27,119 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:27,120 - root - Successfully scraped site
+2024-01-18 11:10:27,121 - root - 11:10:27 Found 20 products in stock
+2024-01-18 11:10:32,130 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:32,551 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:32,631 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:32,633 - root - Successfully scraped site
+2024-01-18 11:10:32,636 - root - 11:10:32 Found 20 products in stock
+2024-01-18 11:10:37,639 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:37,758 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:37,835 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:37,836 - root - Successfully scraped site
+2024-01-18 11:10:37,838 - root - 11:10:37 Found 20 products in stock
+2024-01-18 11:10:42,843 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:42,947 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:43,005 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:43,007 - root - Successfully scraped site
+2024-01-18 11:10:43,009 - root - 11:10:43 Found 20 products in stock
+2024-01-18 11:10:48,015 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:48,143 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:48,300 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:48,303 - root - Successfully scraped site
+2024-01-18 11:10:48,305 - root - 11:10:48 Found 20 products in stock
+2024-01-18 11:10:53,315 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:53,426 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:53,498 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:53,501 - root - Successfully scraped site
+2024-01-18 11:10:53,504 - root - 11:10:53 Found 20 products in stock
+2024-01-18 11:10:58,508 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:10:58,629 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:58,698 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:10:58,701 - root - Successfully scraped site
+2024-01-18 11:10:58,704 - root - 11:10:58 Found 20 products in stock
+2024-01-18 11:11:03,714 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:11:03,818 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:11:03,879 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:11:03,888 - root - Successfully scraped site
+2024-01-18 11:11:03,890 - root - 11:11:03 Found 20 products in stock
+2024-01-18 11:11:08,894 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:11:09,000 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:11:09,069 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:11:09,071 - root - Successfully scraped site
+2024-01-18 11:11:09,073 - root - 11:11:09 Found 20 products in stock
+2024-01-18 11:11:13,087 - root - 
+-----------------------------------
+--- SHOPIFY MONITOR HAS STARTED ---
+-----------------------------------
+
+2024-01-18 11:11:13,087 - root - Successfully started monitor
+2024-01-18 11:11:13,098 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:11:13,215 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:11:13,284 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:11:13,286 - root - Successfully scraped site
+2024-01-18 11:11:13,289 - root - 11:11:13 Found 20 products in stock
+2024-01-18 11:13:09,498 - root - 
+-----------------------------------
+--- SHOPIFY MONITOR HAS STARTED ---
+-----------------------------------
+
+2024-01-18 11:13:09,499 - root - Successfully started monitor
+2024-01-18 11:13:09,511 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:13:09,650 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:13:09,741 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:13:09,743 - root - Successfully scraped site
+2024-01-18 11:13:09,746 - root - 11:13:09 Found 20 products in stock
+2024-01-18 11:13:14,748 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:13:14,868 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:13:14,933 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:13:14,936 - root - Successfully scraped site
+2024-01-18 11:13:14,939 - root - 11:13:14 Found 20 products in stock
+2024-01-18 11:13:19,942 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:13:20,044 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:13:20,110 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:13:20,112 - root - Successfully scraped site
+2024-01-18 11:13:20,115 - root - 11:13:20 Found 20 products in stock
+2024-01-18 11:14:09,484 - root - Successfully started monitor
+2024-01-18 11:14:09,494 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:14:09,619 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:14:09,690 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:14:09,692 - root - Successfully scraped site
+2024-01-18 11:14:09,695 - root - 11:14:09 Found 20 products in stock
+2024-01-18 11:15:10,609 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:15:10,912 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:15:10,972 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:15:15,984 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 11:15:16,151 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 11:15:16,238 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None

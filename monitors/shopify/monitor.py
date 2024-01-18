@@ -67,7 +67,7 @@ def scrape_site(url, headers, proxy):
                 items.append(product_item)
             page += 1
     
-    logging.info(msg='Successfully scraped site')
+    print('Successfully scraped site')
     s.close()
     return items
 
@@ -106,10 +106,10 @@ def discord_webhook(title, url, thumbnail, sizes):
     try:
         result.raise_for_status()
     except rq.exceptions.HTTPError as err:
-        logging.error(err)
+        print(err)
     else:
-        logging.info("Payload delivered successfully, code {}.".format(result.status_code))
-        logging.info(msg="Payload delivered successfully, code {}.".format(result.status_code))
+        print("Payload delivered successfully, code {}.".format(result.status_code))
+        print("Payload delivered successfully, code {}.".format(result.status_code))
 
 
 def remove_duplicates(mylist):
@@ -138,14 +138,14 @@ def comparitor(product, start):
             INSTOCK.append(product_item)
             
             if start == 0:
-                logging.info(product_item)
+                print(product_item)
                 discord_webhook(
                     title=product['title'],
                     url=product['handle'],
                     thumbnail=product['image'],
                     sizes=available_sizes
                 )
-                logging.info(msg='Successfully sent Discord notification')
+                print('Successfully sent Discord notification')
 
     else:
         if checker(product_item):
@@ -157,15 +157,15 @@ def monitor():
     """
     Initiates the monitor
     """
-    logging.info('''\n-----------------------------------
+    print('''\n-----------------------------------
 --- SHOPIFY MONITOR HAS STARTED ---
 -----------------------------------\n''')
-    logging.info(msg='Successfully started monitor')
+    print('Successfully started monitor')
 
     # Checks URL
     if not check_url(URL):
-        logging.info('Store URL not in correct format. Please ensure that it is a path pointing to a /products.json file')
-        logging.error(msg='Store URL formatting incorrect for: ' + str(URL))
+        print('Store URL not in correct format. Please ensure that it is a path pointing to a /products.json file')
+        print('Store URL formatting incorrect for: ' + str(URL))
         return
 
     # Ensures that first scrape does not notify all products
@@ -207,8 +207,8 @@ def monitor():
             start = 0
 
         except rq.exceptions.RequestException as e:
-            logging.error(e)
-            logging.info('Rotating headers and proxy')
+            print(e)
+            print('Rotating headers and proxy')
 
             # Rotates headers
             headers['User-Agent'] = user_agent_rotator.get_random_user_agent()
@@ -221,10 +221,10 @@ def monitor():
                 proxy = {"http": PROXY[proxy_no], "https": PROXY[proxy_no]}
 
         except Exception as e:
-            logging.info(f"Exception found: {traceback.format_exc()}")
-            logging.error(e)   
+            print(f"Exception found: {traceback.format_exc()}")
+            print(e)   
         
-        logging.info(f"{datetime.now().strftime('%H:%M:%S')} Found {len(INSTOCK)} products in stock")
+        print(f"{datetime.now().strftime('%H:%M:%S')} Found {len(INSTOCK)} products in stock")
         # User set delay
         time.sleep(DELAY)
 
