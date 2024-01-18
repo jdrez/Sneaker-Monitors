@@ -1,3 +1,4 @@
+import logging
 from random_user_agent.params import SoftwareName, HardwareType
 from random_user_agent.user_agent import UserAgent
 
@@ -107,7 +108,7 @@ def discord_webhook(title, url, thumbnail, sizes):
     except rq.exceptions.HTTPError as err:
         logging.error(err)
     else:
-        print("Payload delivered successfully, code {}.".format(result.status_code))
+        logging.info("Payload delivered successfully, code {}.".format(result.status_code))
         logging.info(msg="Payload delivered successfully, code {}.".format(result.status_code))
 
 
@@ -137,7 +138,7 @@ def comparitor(product, start):
             INSTOCK.append(product_item)
             
             if start == 0:
-                print(product_item)
+                logging.info(product_item)
                 discord_webhook(
                     title=product['title'],
                     url=product['handle'],
@@ -156,14 +157,14 @@ def monitor():
     """
     Initiates the monitor
     """
-    print('''\n-----------------------------------
+    logging.info('''\n-----------------------------------
 --- SHOPIFY MONITOR HAS STARTED ---
 -----------------------------------\n''')
     logging.info(msg='Successfully started monitor')
 
     # Checks URL
     if not check_url(URL):
-        print('Store URL not in correct format. Please ensure that it is a path pointing to a /products.json file')
+        logging.info('Store URL not in correct format. Please ensure that it is a path pointing to a /products.json file')
         logging.error(msg='Store URL formatting incorrect for: ' + str(URL))
         return
 
@@ -220,10 +221,10 @@ def monitor():
                 proxy = {"http": PROXY[proxy_no], "https": PROXY[proxy_no]}
 
         except Exception as e:
-            print(f"Exception found: {traceback.format_exc()}")
+            logging.info(f"Exception found: {traceback.format_exc()}")
             logging.error(e)   
         
-        print(f"{datetime.now().strftime('%H:%M:%S')} Found {len(INSTOCK)} products in stock")
+        logging.info(f"{datetime.now().strftime('%H:%M:%S')} Found {len(INSTOCK)} products in stock")
         # User set delay
         time.sleep(DELAY)
 
