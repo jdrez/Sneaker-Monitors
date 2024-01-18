@@ -223,6 +223,7 @@ def monitor():
             print(f"Exception found: {traceback.format_exc()}")
             logging.error(e)   
         
+        print(f"{datetime.now().strftime('%H:%M:%S')} Found {len(INSTOCK)} products in stock")
         # User set delay
         time.sleep(float(DELAY))
 
