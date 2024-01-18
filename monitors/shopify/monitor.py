@@ -128,6 +128,7 @@ def comparitor(product, start):
 
     
     product_item.append(available_sizes) # Appends in field
+
     
     if available_sizes:
         if not checker(product_item):

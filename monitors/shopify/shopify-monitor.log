@@ -1,0 +1,48 @@
+2024-01-18 10:53:44,165 - root - Successfully started monitor
+2024-01-18 10:53:44,176 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:53:44,387 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:53:44,456 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:53:44,459 - root - Successfully scraped site
+2024-01-18 10:53:49,468 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:53:49,568 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:53:49,629 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:53:49,632 - root - Successfully scraped site
+2024-01-18 10:53:54,642 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:53:54,778 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:53:54,921 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:53:54,923 - root - Successfully scraped site
+2024-01-18 10:53:59,930 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:54:00,037 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:00,099 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:00,102 - root - Successfully scraped site
+2024-01-18 10:54:05,114 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:54:05,234 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:05,338 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:05,341 - root - Successfully scraped site
+2024-01-18 10:54:10,350 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:54:10,503 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:10,563 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:10,565 - root - Successfully scraped site
+2024-01-18 10:54:15,575 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:54:15,695 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:15,765 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:15,766 - root - Successfully scraped site
+2024-01-18 10:54:20,770 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:54:20,876 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:20,936 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:20,937 - root - Successfully scraped site
+2024-01-18 10:54:37,665 - root - Successfully started monitor
+2024-01-18 10:54:37,678 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:54:37,786 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:37,855 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:54:37,858 - root - Successfully scraped site
+2024-01-18 10:55:30,442 - root - Successfully started monitor
+2024-01-18 10:55:30,452 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:55:30,559 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:55:30,651 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:55:30,654 - root - Successfully scraped site
+2024-01-18 10:56:44,349 - root - Successfully started monitor
+2024-01-18 10:56:44,358 - urllib3.connectionpool - Starting new HTTPS connection (1): lavashak.com:443
+2024-01-18 10:56:44,503 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=1&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:56:44,566 - urllib3.connectionpool - https://lavashak.com:443 "GET /collections/lavashak-bazaar/products.json?page=2&limit=250 HTTP/1.1" 200 None
+2024-01-18 10:56:44,568 - root - Successfully scraped site

@@ -1,9 +1,9 @@
 # --------------------- WEBHOOK URL ---------------------
-WEBHOOK = ""
+WEBHOOK = "https://discord.com/api/webhooks/1197569012670943339/Hnc2SJUyfAfqNK0-qrGHzPqbWCrQ-XPPI8rqPUNeBleCutEo33hwRj4H5C0wtk0-0_yT"
 
 # --------------------- SHOPIFY URL ---------------------
 # Ensure the URL is one that contains products.json (e.g. https://www.hanon-shop.com/collections/whats-new/products.json)
-URL = ""
+URL = "https://lavashak.com/collections/lavashak-bazaar/products.json"
 
 # --------------------- FREE PROXY ---------------------
 # A single or multiple locations can be added in the array (e.g. ["GB"] or ["GB", "US"])
